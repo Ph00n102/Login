@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22b4fb6863faa0a2d36a99653b424dcf1f23dbe4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44064e8537650f3b6ec474a765191fdfa92f8cd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

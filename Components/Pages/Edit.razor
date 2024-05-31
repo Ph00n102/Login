@@ -1,0 +1,24 @@
+@page "/edit"
+@inject NavigationManager NavigationManager
+
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3">
+            <label>HN</label>
+             <input type="text" class="form-control" >
+             <button class="btn btn-primary">ค้นหา</button>
+        </div>
+    </div>
+</div>
+
+
+@code 
+{ 
+    private void btn_click_edit() 
+    { 
+        NavigationManager.NavigateTo("/edit/"); 
+    }
+}

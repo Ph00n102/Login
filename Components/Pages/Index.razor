@@ -1,0 +1,41 @@
+@page "/index" 
+@inject NavigationManager NavigationManager
+
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+
+<div class="row">
+   <table class="table table-bordered">
+      <tr>
+        <td align="center">HN</td>
+        <td align="center">ชื่อคนไข้</td>
+        <td align="center">ชื่อเวรเปล</td>
+        <td colspan="2" align="center">สถานะ</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+  </table>
+</div>
+
+
+@code 
+{ 
+    private void button_click_OPD() 
+    { 
+        NavigationManager.NavigateTo("/index/"); 
+    } 
+}
+
+

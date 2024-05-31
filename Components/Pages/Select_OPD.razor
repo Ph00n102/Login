@@ -1,0 +1,33 @@
+@page "/select_opd" 
+@inject NavigationManager NavigationManager
+
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3">
+            <label >เลือกหวอด</label> &nbsp;
+             <select name="opd" id="opd">
+                <option value="volvo">หวอด1</option>
+                <option value="volvo">หวอด2</option>
+                <option value="volvo">หวอด3</option>
+                <option value="volvo">หวอด4</option>
+            </select>
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button  @onclick="button_click_OPD" class="btn btn-primary" >OK</button>
+        </div>
+    </div>
+</div>
+
+
+@code 
+{ 
+    private void button_click_OPD() 
+    { 
+        NavigationManager.NavigateTo("/index/"); 
+    } 
+}
+
+
